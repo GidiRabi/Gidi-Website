@@ -464,6 +464,17 @@ a:focus {
         width: 100%;
       }
     }
+
+    .popover-show {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popover-hide {
+      visibility: hidden;
+      opacity: 0;
+    }
+
   }
 
   .popover{

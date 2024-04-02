@@ -9,8 +9,8 @@ This website serves as a showcase of my projects, skills, and experiences as a d
 ## Features
 
 - **About Me**: Learn more about my background, education, and interests in software development.
-- - **Projects**: View a selection of my projects, including descriptions, screenshots, and links to live demos or GitHub repositories.
-- - **Resume**: Access my resume to learn more about my education, work experience, skills, and accomplishments.
+- **Projects**: View a selection of my projects, including descriptions, screenshots, and links to live demos or GitHub repositories.
+- **Resume**: Access my resume to learn more about my education, work experience, skills, and accomplishments.
 - **Contact**: Get in touch with me through various channels, such as email, LinkedIn, or GitHub.
 
 ## Usage

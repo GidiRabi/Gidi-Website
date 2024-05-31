@@ -236,7 +236,7 @@
                 <p>
                     This is a small project I've been working on for a while now. It's a
                     scientific calculator, letting you perform advanced calculations.
-                  <br>(At the moment code have problems with some equations)
+                  <br>(At the moment the code have problems with some equations)
                      But you can still try it out!
                 </p>
                 <br><br>
@@ -297,6 +297,30 @@
                 <a href="Jars/draw-board.jar" download>Download GUI</a>
               </div>
               <img src="images/Draw.png">
+            </div>
+          </div>
+
+          <div class="box">
+            <button popovertarget="popover5" style="background: transparent; border: none; outline: none;">
+              <img src="images/Catan.png" style="border-radius: 5%; border: 2px solid black;" alt="" />
+            </button>
+          </div>
+          <div class="w-2/3 rounded-md text-center" id="popover5" popover>
+            <div class="content">
+             <div>
+                <h3 style="text-decoration: underline;"><strong>Catan</strong></h3>
+                <br>
+                <p>
+                    A backend game assignment given in the C++ operating systems course.
+                    This is a basic game of catan reducing some trading options.
+                    The game is played by 3 players in the user terminal,
+                    feel free to check it out and play it yourself!
+                </p>
+                <br><br>
+                <a href="https://github.com/GidiRabi/CPP_EX3"
+                   target="_blank">Code Source</a>
+              </div>
+              <img src="images/Catan.png">
             </div>
           </div>
 
@@ -441,6 +465,42 @@
         }
 
         #popover4{
+          border-radius: 10px;
+          &:popover-open{
+            width: 40%; /* Adjust this value as needed */
+            opacity: 1;
+            animation: slide 500ms ease-out;
+          }
+          opacity: 0;
+          transition: opacity 0.5s, transform 0.5s, display 0.5s,
+          cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        @keyframes slide {
+          from {
+            opacity: 0;
+            transform: translateY(2rem);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0rem);
+          }
+        }
+      </style>
+
+      <style>
+
+        #popover5 .content {
+          display: flex;
+          justify-content: space-between ;
+          align-items: flex-start;
+        }
+
+        #popover5 .content div {
+          width: 50%;  /* Adjust this value as needed */
+        }
+
+        #popover5{
           border-radius: 10px;
           &:popover-open{
             width: 40%; /* Adjust this value as needed */
